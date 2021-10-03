@@ -10,9 +10,8 @@ a {
   text-decoration: none;
 }
 
-#h1{
-    text-align: center;
-    
+#h1 {
+  text-align: center;
 }
 
 .card {
@@ -73,18 +72,17 @@ a {
 }
 
 #haworthia_truncata {
-    background-image: url(../images/Haworthia_truncata.jpeg);
+  background-image: url(../images/Haworthia_truncata.jpeg);
 }
 
-#kalanchoe_tyrsiflora{
-    background-image: url(../images/Kalanchoe_tyrsiflora.jpeg)
+#kalanchoe_tyrsiflora {
+  background-image: url(../images/Kalanchoe_tyrsiflora.jpeg);
 }
-
 
 #cola_de_mono {
   background-image: url(../images/Cola_de_mono.jpeg);
 }
 
-#stapelia{
-    background-image: url(../images/Stapelia.jpeg);
+#stapelia {
+  background-image: url(../images/Stapelia.jpeg);
 }
