@@ -88,7 +88,7 @@ h1 {
 }
 
 #agave_potatorum {
-  background-image: url(../images/Agave_potatorum.jpeg);
+  background-image: url(../images/agave_potatorum.jpeg);
 }
 
 #agave_victoria_reginae {
@@ -96,35 +96,35 @@ h1 {
 }
 
 #crassula_alba {
-  background-image: url(../images/Crassula_Alba.jpeg);
+  background-image: url(../images/crassula_Alba.jpeg);
 }
 
 #echeveria_perle_von_nurnberg {
-  background-image: url(../images/Echeveria_Perle_von_nurnberg.jpeg);
+  background-image: url(../images/echeveria_Perle_von_nurnberg.jpeg);
 }
 
 #echinocereus_pentalophus {
-  background-image: url(../images/Echinocereus_pentalophus.jpeg);
+  background-image: url(../images/echinocereus_pentalophus.jpeg);
 }
 
 #graptopetalum_pentandrum {
-  background-image: url(../images/Graptopetalum_pentandrum.jpeg);
+  background-image: url(../images/graptopetalum_pentandrum.jpeg);
 }
 
 #haworthia_truncata {
-  background-image: url(../images/Haworthia_truncata.jpeg);
+  background-image: url(../images/haworthia_truncata.jpeg);
 }
 
 #kalanchoe_tyrsiflora {
-  background-image: url(../images/Kalanchoe_tyrsiflora.jpeg);
+  background-image: url(../images/kalanchoe_tyrsiflora.jpeg);
 }
 
 #cola_de_mono {
-  background-image: url(../images/Cola_de_mono.jpeg);
+  background-image: url(../images/cola_de_mono.jpeg);
 }
 
 #stapelia {
-  background-image: url(../images/Stapelia.jpeg);
+  background-image: url(../images/stapelia.jpeg);
 }
 
 .flip-card-container {
@@ -188,7 +188,7 @@ h1 {
 }
 
 #flip-card-front-agave-potatorum {
-  background-image: url(../images/Agave_potatorum.jpeg);
+  background-image: url(../images/agave_potatorum.jpeg);
 }
 
 #flip-card-front-agave-victoria-reginae {
@@ -196,39 +196,35 @@ h1 {
 }
 
 #flip-card-front-cola-de-mono {
-  background-image: url(/images/Cola_de_mono.jpeg);
+  background-image: url(/images/cola_de_mono.jpeg);
 }
 
 #flip-card-front-crassula-alba {
-  background-image: url(/images/Crassula_Alba.jpeg);
+  background-image: url(/images/crassula_Alba.jpeg);
 }
 
 #flip-card-front-echeveria-perle-von-nurnberg {
-  background-image: url(/images/Echeveria_Perle_von_nurnberg.jpeg);
+  background-image: url(/images/echeveria_Perle_von_nurnberg.jpeg);
 }
 
 #flip-card-front-echinocereus-pentalophus {
-  background-image: url(/images/Echinocereus_pentalophus.jpeg);
+  background-image: url(/images/echinocereus_pentalophus.jpeg);
 }
 
-#flip-card-front-graptopetalum-pentandrum{
-  background-image: url(/images/Echinocereus_pentalophus.jpeg)
+#flip-card-front-graptopetalum-pentandrum {
+  background-image: url(/images/graptopetalum_pentandrum.jpeg);
 }
 
-#flip-card-front-graptopetalum-pentandrum{
-  background-image: url(/images/Graptopetalum_pentandrum.jpeg)
+#flip-card-front-haworthia-truncata {
+  background-image: url(/images/haworthia_truncata.jpeg);
 }
 
-#flip-card-front-haworthia-truncata{
-  background-image: url(/images/Haworthia_truncata.jpeg)
+#flip-card-front-kalanchoe-tyrsiflora {
+  background-image: url(/images/kalanchoe_tyrsiflora.jpeg);
 }
 
-#flip-card-front-kalanchoe-tyrsiflora{
-  background-image: url(/images/Kalanchoe_tyrsiflora.jpeg)
-}
-
-#flip-card-front-stapelia{
-  background-image: url(/images/Stapelia.jpeg)
+#flip-card-front-stapelia {
+  background-image: url(/images/stapelia.jpeg);
 }
 
 table td {
