@@ -167,7 +167,6 @@ h1 {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-image: url(/images/aeonium.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -184,8 +183,57 @@ h1 {
   align-items: center;
 }
 
+#flip-card-front-aeonium {
+  background-image: url(/images/aeonium.jpeg);
+}
+
+#flip-card-front-agave-potatorum {
+  background-image: url(/images/Agave_potatorum.jpeg);
+}
+
+#flip-card-front-agave-victoria-reginae {
+  background-image: url(/images/agave_victoria_reginae.jpeg);
+}
+
+#flip-card-front-cola-de-mono {
+  background-image: url(/images/Cola_de_mono.jpeg);
+}
+
+#flip-card-front-crassula-alba {
+  background-image: url(/images/Crassula_Alba.jpeg);
+}
+
+#flip-card-front-echeveria-perle-von-nurnberg {
+  background-image: url(/images/Echeveria_Perle_von_nurnberg.jpeg);
+}
+
+#flip-card-front-echinocereus-pentalophus {
+  background-image: url(/images/Echinocereus_pentalophus.jpeg);
+}
+
+#flip-card-front-graptopetalum-pentandrum{
+  background-image: url(/images/Echinocereus_pentalophus.jpeg)
+}
+
+#flip-card-front-graptopetalum-pentandrum{
+  background-image: url(/images/Graptopetalum_pentandrum.jpeg)
+}
+
+#flip-card-front-haworthia-truncata{
+  background-image: url(/images/Haworthia_truncata.jpeg)
+}
+
+#flip-card-front-kalanchoe-tyrsiflora{
+  background-image: url(/images/Kalanchoe_tyrsiflora.jpeg)
+}
+
+#flip-card-front-stapelia{
+  background-image: url(/images/Stapelia.jpeg)
+}
+
 table td {
   border: 1px solid white;
+  padding: 5px;
   text-align: center;
 }
 
