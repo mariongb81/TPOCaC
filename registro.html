@@ -13,16 +13,17 @@
     <style>
       @import url("./css/base.css");
       @import url("./css/basic-grid.css");
+      @import url("../css/registro.css");
     </style>
   </head>
+
   <body>
     <header id="header">
-      <h1>Hola! Soy Vilma!</h1>
+      <h1 id="h1">Mi galeria de suculentas</h1>
       <a href="index.html">
         <p><i class="fas fa-home"></i> Ir al inicio</p>
       </a>
-
-      <nav id="nav-bar">
+      <nav class="basic-grid" id="nav-bar">
         <a class="nav-link" href="about.html">Info</a>
         <a class="nav-link" href="cola_de_mono.html">Cola de Mono</a>
         <a class="nav-link" href="aeonium.html">Aeonium</a>
@@ -49,13 +50,56 @@
         <a class="nav-link" href="stapelia.html">Stapelia</a>
       </nav>
     </header>
-    
 
-    <footer>
-      <p>Contacto</p>
-      <p><i class="fas fa-envelope"></i> Correo electronico:</p>
-      <p><i class="fab fa-whatsapp"></i> WhatsApp:</p>
-      <p><i class="fab fa-telegram-plane"></i> Telegram</p>
-    </footer>
+    
+      <div class="container">
+        <h1>Registrate para recibir novedades en tu correo!</h1>
+        <form action="" id="form" class="form">
+          <div class="input">
+            <label for="username">Nombre de Usuario</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Nombre de Usuario"
+              autocomplete="off"
+            />
+            <small>Error message</small>
+          </div>
+          <div class="input">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email"
+              autocomplete="off"
+            />
+            <small>Error message</small>
+          </div>
+          <div class="input">
+            <label for="password">Contraseña</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Contraseña"
+            />
+            <small>Error message</small>
+          </div>
+          <div class="input">
+            <label for="c-password">Confirmar contraseña</label>
+            <input
+              type="password"
+              name="c-password"
+              id="c-password"
+              placeholder="Confirmar contraseña"
+            />
+            <small>Error message</small>
+          </div>
+          <button>Registrarse!</button>
+        </form>
+      </div>
+      <script type="text/javascript" src="scripts/registro.js"></script>
   </body>
 </html>
