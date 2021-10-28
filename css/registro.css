@@ -1,30 +1,99 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+header {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 15px;
+}
+body {
+  background: rgb(19, 19, 19);
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container h1 {
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+.input {
+  margin-bottom: 20px;
+  position: relative;
+}
+.input label {
+  display: block;
+  margin-bottom: 10px;
+}
+.input input {
+  color: white;
+  width: 100%;
+  height: 40px;
+  padding: 0 15px;
+  background-color: transparent;
+  border: 2px solid #f0f0f0;
+  border-radius: 5px;
+}
+.input small {
+  display: block;
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 11px;
+  padding-top: 3px;
+  visibility: hidden;
+}
+.input.success input {
+  border: 2px solid #2ecc71;
+}
+.input.error input {
+  border: 2px solid #e74c3c;
+}
+.input.error small {
+  visibility: visible;
+}
+button {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(19, 19, 19);
+  display: block;
+  font-size: 16px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 15px;
+  text-align: center;
+}
+
 @media (min-width: 300px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-  }
-  
-  header {
-    text-align: center;
-  }
-  
-  body {
-    background: rgb(19, 19, 19);
-    color: #fff;
-    font-family: "Noto Sans", sans-serif;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
   #nav-bar {
     display: flex;
-    flex:1;
+    flex: 1;
     flex-wrap: wrap;
     flex-basis: 100%;
     flex-direction: column;
@@ -34,7 +103,7 @@
     height: auto;
     gap: 0;
   }
-  
+
   .nav-link {
     flex: 1;
     flex-wrap: wrap;
@@ -47,22 +116,11 @@
     height: auto;
     text-align: center;
   }
-  
+
   .nav-link:hover {
     transform: translateY(-3px) scale(1.1);
   }
-  
-  a {
-    text-decoration: none;
-    color: #fff;
-    font-family: "Noto Sans", sans-serif;
-  }
-  
-  h1 {
-    text-align: center;
-    padding: 15px;
-  }
-  
+
   .container {
     background-color: #353535;
     border-radius: 5px;
@@ -122,40 +180,40 @@
     display: block;
     font-size: 16px;
   }
-  
 }
 
 @media (min-width: 768px) {
+  #nav-bar {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    padding: 15px;
+    height: auto;
+    gap: 0;
+  }
 
+  .nav-link {
+    flex: 1;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    border: 1px solid rgb(19, 19, 19);
+    transition: all 500ms;
+    background: #fff;
+    color: rgb(19, 19, 19);
+    padding: auto;
+    height: auto;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1024px) {
-
 }
 
 @media (min-width: 1280px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-  }
-  
-  header {
-    text-align: center;
-  }
-  
-  body {
-    background: rgb(19, 19, 19);
-    color: #fff;
-    font-family: "Noto Sans", sans-serif;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
   #nav-bar {
     display: flex;
     flex: 1;
@@ -167,7 +225,7 @@
     height: auto;
     gap: 0;
   }
-  
+
   .nav-link {
     flex: 1;
     border: 1px solid rgb(19, 19, 19);
@@ -178,22 +236,11 @@
     height: auto;
     text-align: center;
   }
-  
+
   .nav-link:hover {
     transform: translateY(-3px) scale(1.1);
   }
-  
-  a {
-    text-decoration: none;
-    color: #fff;
-    font-family: "Noto Sans", sans-serif;
-  }
-  
-  h1 {
-    text-align: center;
-    padding: 15px;
-  }
-  
+
   .container {
     background-color: #353535;
     border-radius: 5px;
@@ -202,66 +249,4 @@
     padding: 30px 40px;
     margin: 40px;
   }
-  .container h1 {
-    text-align: center;
-    margin: 0 0 20px;
-    font-size: 24px;
-  }
-  .input {
-    margin-bottom: 20px;
-    position: relative;
-  }
-  .input label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  .input input {
-    color: white;
-    width: 100%;
-    height: 40px;
-    padding: 0 15px;
-    background-color: transparent;
-    border: 2px solid #f0f0f0;
-    border-radius: 5px;
-  }
-  .input small {
-    display: block;
-    color: #e74c3c;
-    font-weight: bold;
-    font-size: 11px;
-    padding-top: 3px;
-    visibility: hidden;
-  }
-  .input.success input {
-    border: 2px solid #2ecc71;
-  }
-  .input.error input {
-    border: 2px solid #e74c3c;
-  }
-  .input.error small {
-    visibility: visible;
-  }
-  button {
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    background-color: #f0f0f0;
-    border: 1px solid #f0f0f0;
-    border-radius: 5px;
-    cursor: pointer;
-    color: rgb(19, 19, 19);
-    display: block;
-    font-size: 16px;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: stretch;
-    padding: 15px;
-    text-align: center;
-  
 }
-}
-
