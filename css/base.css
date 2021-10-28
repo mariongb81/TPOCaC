@@ -6,21 +6,21 @@
     box-sizing: border-box;
     outline: none;
   }
-  
+
   header {
     text-align: center;
   }
-  
+
   body {
     background: rgb(19, 19, 19);
     color: #fff;
     font-family: "Noto Sans", sans-serif;
     height: auto;
   }
-  
+
   #nav-bar {
     display: flex;
-    flex:1;
+    flex: 1;
     flex-wrap: wrap;
     flex-basis: 100%;
     flex-direction: row;
@@ -30,7 +30,7 @@
     height: auto;
     gap: 0;
   }
-  
+
   .nav-link {
     flex: 1;
     flex-wrap: wrap;
@@ -43,22 +43,22 @@
     height: auto;
     text-align: center;
   }
-  
+
   .nav-link:hover {
     transform: translateY(-3px) scale(1.1);
   }
-  
+
   a {
     text-decoration: none;
     color: #fff;
     font-family: "Noto Sans", sans-serif;
   }
-  
+
   h1 {
     text-align: center;
     padding: 15px;
   }
-  
+
   .card {
     display: flex;
     flex-direction: column;
@@ -76,70 +76,65 @@
     border-radius: 4px;
     transition: all 500ms;
     overflow: hidden;
-  
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
-  
+
   .card:hover {
     box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em,
       rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
     transform: translateY(-3px) scale(1.1);
   }
-  
+
   #about {
     background-image: url(../images/vilma.jpeg);
   }
-  
+
   #aeonium {
     background-image: url(../images/aeonium.jpeg);
   }
-  
+
   #agave_potatorum {
     background-image: url(../images/agave_potatorum.jpeg);
   }
-  
+
   #agave_victoria_reginae {
     background-image: url(../images/agave_victoria_reginae.jpeg);
   }
-  
+
   #crassula_alba {
     background-image: url(../images/crassula_Alba.jpeg);
   }
-  
+
   #echeveria_perle_von_nurnberg {
     background-image: url(../images/echeveria_Perle_von_nurnberg.jpeg);
   }
-  
+
   #echinocereus_pentalophus {
     background-image: url(../images/echinocereus_pentalophus.jpeg);
   }
-  
+
   #graptopetalum_pentandrum {
     background-image: url(../images/graptopetalum_pentandrum.jpeg);
   }
-  
+
   #haworthia_truncata {
     background-image: url(../images/haworthia_truncata.jpeg);
   }
-  
+
   #kalanchoe_tyrsiflora {
     background-image: url(../images/kalanchoe_tyrsiflora.jpeg);
   }
-  
+
   #cola_de_mono {
     background-image: url(../images/cola_de_mono.jpeg);
   }
-  
+
   #stapelia {
     background-image: url(../images/stapelia.jpeg);
   }
-  
+
   .flip-card-container {
     display: flex;
-    justify-content:center;
-   
+    justify-content: center;
   }
   /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
   .flip-card {
@@ -147,10 +142,8 @@
     width: 900px;
     height: 600px;
     border: 1px solid #f1f1f1;
-    
-    
   }
-  
+
   /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
@@ -160,12 +153,12 @@
     transition: transform 0.8s;
     transform-style: preserve-3d;
   }
-  
+
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
-  
+
   /* Position the front and back side */
   .flip-card-front,
   .flip-card-back {
@@ -175,17 +168,16 @@
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
-  
+
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-size: cover;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-  
+
     color: black;
   }
-  
+
   /* Style the back side */
   .flip-card-back {
     background-color: #353535;
@@ -195,61 +187,57 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   #flip-card-front-aeonium {
     background-image: url(../images/aeonium.jpeg);
-    
   }
-  
+
   #flip-card-front-agave-potatorum {
     background-image: url(../images/agave_potatorum.jpeg);
   }
-  
+
   #flip-card-front-agave-victoria-reginae {
     background-image: url(../images/agave_victoria_reginae.jpeg);
   }
-  
+
   #flip-card-front-cola-de-mono {
     background-image: url(../images/cola_de_mono.jpeg);
   }
-  
+
   #flip-card-front-crassula-alba {
     background-image: url(../images/crassula_Alba.jpeg);
   }
-  
+
   #flip-card-front-echeveria-perle-von-nurnberg {
     background-image: url(../images/echeveria_Perle_von_nurnberg.jpeg);
   }
-  
+
   #flip-card-front-echinocereus-pentalophus {
     background-image: url(../images/echinocereus_pentalophus.jpeg);
   }
-  
+
   #flip-card-front-graptopetalum-pentandrum {
     background-image: url(../images/graptopetalum_pentandrum.jpeg);
   }
-  
+
   #flip-card-front-haworthia-truncata {
     background-image: url(../images/haworthia_truncata.jpeg);
   }
-  
+
   #flip-card-front-kalanchoe-tyrsiflora {
     background-image: url(../images/kalanchoe_tyrsiflora.jpeg);
   }
-  
+
   #flip-card-front-stapelia {
     background-image: url(../images/stapelia.jpeg);
   }
-  
+
   table td {
     border: 1px solid white;
     padding: 5px;
     text-align: center;
   }
-  
-  
-  
-  
+
   footer {
     display: flex;
     flex-direction: column;
@@ -261,11 +249,32 @@
 }
 
 @media (min-width: 768px) {
+  #nav-bar {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 15px;
+    height: auto;
+    gap: 0;
+  }
 
+  .nav-link {
+    
+    flex-basis: 50%;
+    border: 1px solid rgb(19, 19, 19);
+    transition: all 500ms;
+    background: #fff;
+    color: rgb(19, 19, 19);
+    padding: auto;
+    height: auto;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1024px) {
-
 }
 
 @media (min-width: 1280px) {
@@ -275,20 +284,20 @@
     box-sizing: border-box;
     outline: none;
   }
-  
+
   header {
     text-align: center;
   }
-  
+
   body {
     background: rgb(19, 19, 19);
     color: #fff;
     font-family: "Noto Sans", sans-serif;
   }
-  
+
   #nav-bar {
     display: flex;
-    flex:1;
+    flex: 1;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
@@ -297,7 +306,7 @@
     height: auto;
     gap: 0;
   }
-  
+
   .nav-link {
     flex: 1;
     border: 1px solid rgb(19, 19, 19);
@@ -308,22 +317,22 @@
     height: auto;
     text-align: center;
   }
-  
+
   .nav-link:hover {
     transform: translateY(-3px) scale(1.1);
   }
-  
+
   a {
     text-decoration: none;
     color: #fff;
     font-family: "Noto Sans", sans-serif;
   }
-  
+
   h1 {
     text-align: center;
     padding: 15px;
   }
-  
+
   .card {
     display: flex;
     flex-direction: column;
@@ -341,69 +350,69 @@
     border-radius: 4px;
     transition: all 500ms;
     overflow: hidden;
-  
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+
   .card:hover {
     box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em,
       rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
     transform: translateY(-3px) scale(1.1);
   }
-  
+
   #about {
     background-image: url(../images/vilma.jpeg);
   }
-  
+
   #aeonium {
     background-image: url(../images/aeonium.jpeg);
   }
-  
+
   #agave_potatorum {
     background-image: url(../images/agave_potatorum.jpeg);
   }
-  
+
   #agave_victoria_reginae {
     background-image: url(../images/agave_victoria_reginae.jpeg);
   }
-  
+
   #crassula_alba {
     background-image: url(../images/crassula_Alba.jpeg);
   }
-  
+
   #echeveria_perle_von_nurnberg {
     background-image: url(../images/echeveria_Perle_von_nurnberg.jpeg);
   }
-  
+
   #echinocereus_pentalophus {
     background-image: url(../images/echinocereus_pentalophus.jpeg);
   }
-  
+
   #graptopetalum_pentandrum {
     background-image: url(../images/graptopetalum_pentandrum.jpeg);
   }
-  
+
   #haworthia_truncata {
     background-image: url(../images/haworthia_truncata.jpeg);
   }
-  
+
   #kalanchoe_tyrsiflora {
     background-image: url(../images/kalanchoe_tyrsiflora.jpeg);
   }
-  
+
   #cola_de_mono {
     background-image: url(../images/cola_de_mono.jpeg);
   }
-  
+
   #stapelia {
     background-image: url(../images/stapelia.jpeg);
   }
-  
+
   .flip-card-container {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin: 10vh;
   }
   /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -414,7 +423,7 @@
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
-  
+
   /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
@@ -424,12 +433,12 @@
     transition: transform 0.8s;
     transform-style: preserve-3d;
   }
-  
+
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
-  
+
   /* Position the front and back side */
   .flip-card-front,
   .flip-card-back {
@@ -439,15 +448,15 @@
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
-  
+
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-size: cover;
     background-repeat: no-repeat;
-  
+
     color: black;
   }
-  
+
   /* Style the back side */
   .flip-card-back {
     background-color: #353535;
@@ -457,60 +466,57 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   #flip-card-front-aeonium {
     background-image: url(../images/aeonium.jpeg);
   }
-  
+
   #flip-card-front-agave-potatorum {
     background-image: url(../images/agave_potatorum.jpeg);
   }
-  
+
   #flip-card-front-agave-victoria-reginae {
     background-image: url(../images/agave_victoria_reginae.jpeg);
   }
-  
+
   #flip-card-front-cola-de-mono {
     background-image: url(../images/cola_de_mono.jpeg);
   }
-  
+
   #flip-card-front-crassula-alba {
     background-image: url(../images/crassula_Alba.jpeg);
   }
-  
+
   #flip-card-front-echeveria-perle-von-nurnberg {
     background-image: url(../images/echeveria_Perle_von_nurnberg.jpeg);
   }
-  
+
   #flip-card-front-echinocereus-pentalophus {
     background-image: url(../images/echinocereus_pentalophus.jpeg);
   }
-  
+
   #flip-card-front-graptopetalum-pentandrum {
     background-image: url(../images/graptopetalum_pentandrum.jpeg);
   }
-  
+
   #flip-card-front-haworthia-truncata {
     background-image: url(../images/haworthia_truncata.jpeg);
   }
-  
+
   #flip-card-front-kalanchoe-tyrsiflora {
     background-image: url(../images/kalanchoe_tyrsiflora.jpeg);
   }
-  
+
   #flip-card-front-stapelia {
     background-image: url(../images/stapelia.jpeg);
   }
-  
+
   table td {
     border: 1px solid white;
     padding: 5px;
     text-align: center;
   }
-  
-  
-  
-  
+
   footer {
     display: flex;
     flex-direction: column;
@@ -519,5 +525,4 @@
     padding: 15px;
     text-align: center;
   }
-  
 }

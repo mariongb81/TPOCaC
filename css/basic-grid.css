@@ -9,7 +9,13 @@
 }
 
 @media (min-width: 768px) {
-
+  .basic-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    height: auto;
+    margin: 15px;
+}
 }
 
 @media (min-width: 1024px) {
